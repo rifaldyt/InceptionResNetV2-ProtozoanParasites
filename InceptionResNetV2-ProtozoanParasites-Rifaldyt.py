@@ -16,7 +16,7 @@ from os import getcwd
 
 #Download Dataset dari Google Drive
 !wget --load-cookies /tmp/cookies.txt \
-"https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1Asnswg3iJOemPg0Mb5x_Z5T3ASXzF0CQ' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1Asnswg3iJOemPg0Mb5x_Z5T3ASXzF0CQ" \
+"https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1Asnswg3iJOemPg0Mb5x_Z5T3ASXz****' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1Asnswg3iJOemPg0Mb5x_Z5T3ASXz****" \
     -O mendeley-parasite-dataset.zip && rm -rf /tmp/cookies.txt
 
 local_zip = 'mendeley-parasite-dataset.zip'
